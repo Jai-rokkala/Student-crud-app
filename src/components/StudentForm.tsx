@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import type { Student } from "../types/Student"
+import type { Student } from "../types/student"
 
 type Props = {
   onAddStudent: (student: Student) => void

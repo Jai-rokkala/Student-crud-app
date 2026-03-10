@@ -1,4 +1,4 @@
-import type { Student } from "../types/Student"
+import type { Student } from "../types/student"
 
 type Props = {
   students: Student[]

@@ -1,6 +1,6 @@
 import * as XLSX from "xlsx"
 import { saveAs } from "file-saver"
-import type { Student } from "../types/Student"
+import type { Student } from "../types/student"
 
 export const exportStudentsToExcel = (students: Student[]) => {
 

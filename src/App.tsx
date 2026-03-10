@@ -1,7 +1,7 @@
 import { useState } from "react"
 import StudentTable from "./components/StudentTable"
 import StudentForm from "./components/StudentForm"
-import type { Student } from "./types/Student"
+import type { Student } from "./types/student"
 import { exportStudentsToExcel } from "./utils/exportExcel"
 import ConfirmDeleteModal from "./components/ConfirmDeleteModal"
 
