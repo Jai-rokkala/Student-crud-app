@@ -34,15 +34,13 @@ function StudentTable({ students, onDeleteStudent, onEditStudent }: Props) {
 
               <button
                 onClick={() => onEditStudent(student)}
-                className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
-              >
+                className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600">
                 Edit
               </button>
 
               <button
                 onClick={() => onDeleteStudent(student.id)}
-                className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
-              >
+                className="bg-red-500 text-white px-3 py-1 rounded">
                 Delete
               </button>
 
