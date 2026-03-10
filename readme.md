@@ -7,7 +7,7 @@ Users can **add, update, delete, search, and export student data to Excel** usin
 
 # 🚀 Live Demo
 
-👉 ...
+👉 https://student-crud-app-seven.vercel.app
 
 ---
 
